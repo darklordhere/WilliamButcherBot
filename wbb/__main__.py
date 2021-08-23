@@ -135,7 +135,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
 )
 
 home_text_pm = (
-    f"Hey there! My name is {BOT_NAME}. I can manage your "
+    f"Hey there! My name is {BOT_NAME}( https://telegra.ph/file/a7a3859d6ceea7dae9a3c.jpg ). I can manage your "
     + "group with lots of useful features, feel free to "
     + "add me to your group."
 )
@@ -183,7 +183,7 @@ async def help_parser(name, keyboard=None):
         )
     return (
         """Hello {first_name}! My name is {bot_name}!
-I'm a group management bot with some useful features.
+♦️ I'm a group management bot with useful features that are necessary to manage your group.
 You can choose an option below, by clicking a button.
 Also you can ask anything in Support Group.
 """.format(
